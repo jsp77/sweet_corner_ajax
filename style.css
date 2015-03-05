@@ -1,0 +1,483 @@
+
+/*------[ header section ]------------*/
+/*------[ reused section ]------*/
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.nav {
+    margin: 15px 15px 20px 5px;
+    widows: 1000px;
+    position: relative;
+    text-align: right;
+}
+
+.nav li, a {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    margin-right: 15px;
+    color: #754b23;
+    text-align: right;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: #06b4af;
+    cursor: pointer;
+}
+
+
+.main_pic {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 200px;
+    display: inline-block;
+    background-position: center;
+    
+}
+
+.ad1 h1 {
+    position: relative;
+    font-family: cursive;
+    text-align: center;
+    color: #754b23;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.separator {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    width: 1000px;
+    background-color: #754b23;
+    margin: 0 auto;
+}
+
+/*---------------[ footer section ]------------*/
+
+
+footer {
+    position: relative;
+    background-color: #06b4af;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 80px;
+    width: 1000px;
+}
+
+.bottom_logo_container {
+    position: absolute;
+    display: inline-block;
+    width: 1000px;
+    height: 80px;
+}
+
+.bottom_logo_container img {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 50px;
+}
+
+.copyright {
+    width: 600px;
+    text-align: center;
+    padding: 0px;
+}
+
+.copyright p {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.phone {
+    height: 50%;
+    width: 200px;
+    position: relative;
+    display: inline-flex;
+    float: right;
+    margin-top: 15px;
+}
+
+.phone img {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.phone p {
+    color: #fff;
+    font-size: 14px;
+}
+/*---------------[ footer section END ]------------*/
+
+
+/*------------------------------------*/
+/*-----------[ home page ]------------*/
+/*------------------------------------*/
+
+
+/*-----[ mid-top info section ]-----*/
+.section_home {
+    margin-top: -5px;
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: auto; 
+    background-image: url(images/strips2.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+
+.mid_home {
+    position: relative;
+    display: inline-block;
+    width 100px;
+    height: 400px;
+    float: right;
+    margin: 20px;
+}
+
+.info_home {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    margin: 25px 30px 25px 40px;
+}
+.info_home h2, p {
+    font-family: sans-serif;
+    color: #754b23;
+    text-align: left;
+}
+
+.info_home h2 {
+    margin-top 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.info_home p {
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+/*-----[ mid-bottom section ]-----*/
+
+.ad2 h1 {
+    position: relative;
+    font-family: monotype cursiva, cursive;
+    font-weight: 100;
+    text-align: center;
+    color: #754b23;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.bottom_pic {
+    width: 1000px;
+}
+
+.mid_home_bottom {
+    margin-bottom: 0px;
+}
+
+/*--------------------------------------*/
+/*-----------[ contact page ]-----------*/
+/*--------------------------------------*/
+
+
+/*-----[ contact mid-top ]-----*/
+.section_contact {
+    margin-top: 0px;
+    position: relative;
+    display: inline-flex;
+    width: 1000px;
+    height: 480px;
+}
+
+.info_contact {
+    width: 480px;
+    margin: 0px 30px 25px 40px;
+}
+
+.info_contact h2, p, a {
+    font-family: sans-serif;
+    color: #754b23;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.info_contact h2 {
+    padding: 20px 0px 20px 0px;
+}
+
+.info_contact p {
+    font-size: 16px;
+}
+
+.info_contact a {
+    color: #06b4af;
+    left: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.info_contact a:hover {
+    text-decoration: underline;
+    color: #e86b35;
+}
+
+
+.mid_pic_up {
+    float: right;
+    padding-right: 100px;
+}
+
+form {
+    font-family: sans-serif;
+    padding-top: 20px;
+    height: 500px;
+    width: 310px;
+    color: #754b23;
+    margin-left: 40px;
+}
+
+form h2 {
+    font-size: 22px;
+}
+
+input {
+    width: 310px;
+    height: 35px;
+    margin: 7px 0px;
+    
+}
+
+textarea {
+    width: 310px;
+    height: 115px;
+    margin-top: 7px;
+}
+
+input, textarea {
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: sans-serif;
+    color: #754b23;
+}
+
+.input1 {
+    background-color: #e86b35;
+}
+
+.input2 {
+    background-color: #f6b53e;
+}
+
+.input3 {
+    background-color: #06b4af
+}
+
+button {
+    font-family: sans-serif;
+    margin-top: 7px;
+    float: right;
+    color: #fff;
+    background-color: #06b4af;
+    width: 155px;
+    height: 35px;
+    cursor: pointer;
+    border: 0px none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #754b23;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #754b23;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #754b23;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #754b23;
+}
+
+/*-----[ contact mid-bottom ]-----*/
+
+.contact_hours {
+    width: 1000px;
+    height: 250px;
+    position: relative;
+}
+
+.contact_hours h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #754b23;
+    margin-left: 50px;
+}
+
+table {
+    margin-left: 50px;
+}
+
+table tr {
+}
+
+table td {
+    background-color: #f6ede6;
+    height: 35px;
+    text-align: center;
+    color: #754b23;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.days {
+    width: 152px;
+}
+
+.hours {
+    width: 218px;
+}
+
+.mid_pic_bottom {
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    right: 250px;
+} 
+
+
+/*---------------------------------------*/
+/*-----------[ services page ]-----------*/
+/*---------------------------------------*/
+
+.section_services {
+    margin-top: -5px;
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 890px; 
+    background-image: url(images/strips1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.mid_services {
+    width 100px;
+    height: 400px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 120px;
+}
+
+.info_services {
+    position: relative;
+    display: inline-block;
+    width: 580px;
+    height: auto;
+    margin: 25px 0px 0px 50px;
+}
+.info_services h2, p {
+    font-family: sans-serif;
+    color: #754b23;
+    text-align: left;
+}
+
+.info_services h2 {
+    margin-top 10px;
+    font-weight: 600;
+}
+
+.info_services p {
+    font-size: 16px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.bottom_pic_services {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------------*/
+/*-----------[ about us page ]-----------*/
+/*---------------------------------------*/
+
+
+.section_about {
+    margin-top: -5px;
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 400px; 
+    background-image: url(images/strips1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.mid_about {
+    width 100px;
+    height: 200px;
+    float: right;
+    margin-right: 220px;
+    margin-top: 120px;
+}
+
+.info_about {
+    position: relative;
+    display: inline-block;
+    width: 580px;
+    height: auto;
+    margin: 25px 0px 0px 50px;
+}
+.info_about h2, p {
+    font-family: sans-serif;
+    color: #754b23;
+    text-align: left;
+}
+
+.info_about h2 {
+    margin-top 30px;
+    font-weight: 600;
+}
+
+.info_about p {
+    font-size: 16px;
+    margin-top: -5px;
+    text-align: justify;
+}
+
+.bottom_pic_about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
